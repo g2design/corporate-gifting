@@ -1,0 +1,23 @@
+
+
+input {
+    margin: 40px;
+}
+
+.bottle-container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wine-bottle {
+        width: 150px;
+        height: auto;
+        margin: 20px;
+    }
+    .logo {
+        max-width: 100px;
+        position: absolute;
+    }
+}
